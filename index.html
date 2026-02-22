@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Master | NCERT 2026 Revision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- MathJax for chemical equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <div class="glow-mesh"></div>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">🧪 <span>OrganicMaster</span></div>
+            <ul class="nav-menu">
+                <li class="nav-item active" data-view="roadmaps"><i>🗺️</i> Reaction Roadmaps</li>
+                <li class="nav-item" data-view="named"><i>🔥</i> Named Reactions</li>
+                <li class="nav-item" data-view="reagents"><i>⚡</i> Reagent Dictionary</li>
+                <li class="nav-item" data-view="conversions"><i>🔄</i> Step Up/Down</li>
+                <li class="nav-item" data-view="tests"><i>🧪</i> Distinction Tests</li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Organic <span style="color:var(--primary)">Reaction</span> Master</h1>
+                <p>Designed to make Organic Chemistry easy for Ishika. Goal: 100/100! 🚀</p>
+            </header>
+
+            <!-- View 1: Reaction Roadmaps -->
+            <section id="view-roadmaps" class="app-view active">
+                <div class="roadmap-view">
+                    <!-- Roadmap 1: Aliphatic Hub -->
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Aliphatic Flow (Chain)</h3>
+                            <span class="badge hot">Master Flow</span>
+                        </div>
+
+                        <div class="step-item">
+                            <span class="reagent">Alkene + H2O/H+</span>
+                            <span class="product">Alcohol (ROH)</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">PCC / CrO3</span>
+                            <span class="product">Aldehyde (RCHO)</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">KMnO4 / K2Cr2O7</span>
+                            <span class="product">Carboxylic Acid</span>
+                        </div>
+                    </div>
+
+                    <!-- Roadmap 2: Hydrocarbon to Amine -->
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>The Halogen Bridge</h3>
+                            <span class="badge cool">Essential</span>
+                        </div>
+                        <div class="step-item">
+                            <span class="reagent">Alkane + Cl2/hv</span>
+                            <span class="product">Haloalkane (RX)</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">KCN (Ethanolic)</span>
+                            <span class="product">Nitrile (RCN)</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">LiAlH4 / H2-Ni</span>
+                            <span class="product">1° Amine (RNH2)</span>
+                        </div>
+                    </div>
+
+                    <!-- Roadmap 3: Aromatic World -->
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>The Benzene Circle</h3>
+                            <span class="badge hot">Most Asked</span>
+                        </div>
+                        <div class="step-item">
+                            <span class="reagent">Benzene + HNO3/H2SO4</span>
+                            <span class="product">Nitrobenzene</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">Sn / HCl</span>
+                            <span class="product">Aniline (Ar-NH2)</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">NaNO2 + HCl (0-5°C)</span>
+                            <span class="product">Diazonium Salt</span>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <span class="reagent">H2O (Warm)</span>
+                            <span class="product">Phenol (Ar-OH)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View 2: Named Reactions Hub -->
+            <section id="view-named" class="app-view" style="display:none">
+                <div class="roadmap-view">
+                    <div class="flow-card">
+                        <h3>Haloalkanes Hub</h3>
+                        <div class="step-item"><b>Finkelstein:</b> RX + NaI \(\to\) RI</div>
+                        <div class="step-item"><b>Swarts:</b> RX + AgF \(\to\) RF</div>
+                        <div class="step-item"><b>Wurtz:</b> 2RX + 2Na \(\to\) R-R</div>
+                    </div>
+                    <div class="flow-card">
+                        <h3>Carbonyl Hub</h3>
+                        <div class="step-item"><b>Aldol:</b> \(\alpha\)-H required. Forms \(\beta\)-hydroxy aldehyde.
+                        </div>
+                        <div class="step-item"><b>Cannizzaro:</b> No \(\alpha\)-H. Self oxidation-reduction.</div>
+                        <div class="step-item"><b>Etard:</b> Toluene \(\to\) Benzaldehyde.</div>
+                    </div>
+                    <div class="flow-card">
+                        <h3>Amines Hub</h3>
+                        <div class="step-item"><b>Hofmann Bromamide:</b> \(RCONH_2 \xrightarrow{Br_2/NaOH} RNH_2\)</div>
+                        <div class="step-item"><b>Carbylamine:</b> Test for 1° Amines only. Foul smell!</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View 3: Reagents dictionary -->
+            <section id="view-reagents" class="app-view" style="display:none">
+                <div class="reagent-grid">
+                    <div class="reagent-card">
+                        <h3>LiAlH4</h3>
+                        <p>The Strongest Reducer. Converts Acid/Ester/CHO \(\to\) Alcohols.</p>
+                    </div>
+                    <div class="reagent-card">
+                        <h3>KMnO4</h3>
+                        <p>Strong Oxidizer. Converts everything to Carboxylic Acid.</p>
+                    </div>
+                    <div class="reagent-card">
+                        <h3>PCC</h3>
+                        <p>Mild Oxidizer. Stops conversion at Aldehyde stage.</p>
+                    </div>
+                    <div class="reagent-card">
+                        <h3>PCl5 / SOCl2</h3>
+                        <p>Replacement Specialist. OH \(\to\) Cl.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="ishika-note">
+        You've got this, Ishu! ❤️
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

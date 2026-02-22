@@ -108,8 +108,26 @@ body {
     background: rgba(96, 165, 250, 0.1);
 }
 
+.nav-item.vibrant {
+    color: var(--secondary);
+    border-left: 2px solid transparent;
+}
+
+.nav-item.vibrant:hover {
+    border-left: 2px solid var(--secondary);
+    background: rgba(34, 211, 238, 0.05);
+}
+
 .nav-item i {
     font-size: 1.25rem;
+}
+
+.flow-card.wide {
+    grid-column: 1 / -1;
+}
+
+table tr:hover {
+    background: rgba(255, 255, 255, 0.03);
 }
 
 /* Main Content */

@@ -69,6 +69,7 @@ body {
 .logo span {
     background: linear-gradient(to right, var(--primary), var(--secondary));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -246,32 +247,7 @@ body {
     color: var(--text-muted);
 }
 
-.ishika-note {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    padding: 1rem 2rem;
-    border-radius: 50px;
-    font-weight: 700;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    cursor: default;
-    animation: heartBeat 2s infinite;
-}
 
-@keyframes heartBeat {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.05);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 
 @media (max-width: 900px) {
     .app-container {

@@ -26,7 +26,11 @@
                 <li class="nav-item" data-view="chap8"><i>🍋</i> Unit 8: Carbonyls/Acids</li>
                 <li class="nav-item" data-view="chap9"><i>🧬</i> Unit 9: Amines</li>
                 <li class="nav-item" data-view="chap10"><i>🍏</i> Unit 10: Biomolecules</li>
-                <li class="nav-item vibrant-blue" style="margin-top:20px;" data-view="protools"><i>🚀</i> Pro Conversion
+                <li class="nav-item vibrant-blue" style="margin-top:20px;" data-view="trends"><i>⚖️</i> Trend-Master
+                    (Orders)</li>
+                <li class="nav-item vibrant-blue" data-view="mechanisms"><i>📜</i> Must-Know Mechanisms</li>
+                <li class="nav-item vibrant-blue" data-view="chain"><i>🧩</i> A-B-C Chain Solver</li>
+                <li class="nav-item vibrant-blue" data-view="protools"><i>🚀</i> Pro Conversion
                     Tools</li>
             </ul>
             <div class="sidebar-footer"
@@ -197,6 +201,141 @@
                         <div class="step-item"><b>Denaturation:</b> Destroys \(2^o, 3^o\) structure, NOT \(1^o\).</div>
                         <div class="step-item"><b>Nucleic Acids:</b> Adenine - Thymine (2H), Guanine - Cytosine (3H).
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View: Trend-Master (Increasing/Decreasing Orders) -->
+            <section id="view-trends" class="app-view" style="display:none">
+                <div class="roadmap-view">
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Basicity of Amines</h3>
+                            <span class="badge hot">100% Asked</span>
+                        </div>
+                        <div class="item">
+                            <label>In Gaseous Phase:</label>
+                            <p class="product">\(3^o > 2^o > 1^o > NH_3\)</p>
+                        </div>
+                        <div class="item" style="margin-top:10px;">
+                            <label>In Aqueous (Methyl Group):</label>
+                            <p class="product">\(2^o > 1^o > 3^o > NH_3\) (Order: 213)</p>
+                        </div>
+                        <div class="item" style="margin-top:10px;">
+                            <label>In Aqueous (Ethyl Group):</label>
+                            <p class="product">\(2^o > 3^o > 1^o > NH_3\) (Order: 231)</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Acidity Patterns</h3>
+                            <span class="badge cool">Logic Based</span>
+                        </div>
+                        <div class="item">
+                            <label>Alcohol vs Phenol:</label>
+                            <p class="product">Phenol > Alcohol (Resonance vs No Resonance)</p>
+                        </div>
+                        <div class="item" style="margin-top:10px;">
+                            <label>Substituted Phenols:</label>
+                            <p class="product">Nitro (EWG) > Phenol > Methyl (EDG)</p>
+                            <p class="exam-pro-tip">💡 EWG increases acidity, EDG decreases it.</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Boiling Points</h3>
+                        </div>
+                        <div class="item">
+                            <label>Functional Groups:</label>
+                            <p class="product">Acid > Alcohol > Ketone/Aldehyde > Ether > HC</p>
+                        </div>
+                        <div class="item" style="margin-top:10px;">
+                            <label>Branching Effect:</label>
+                            <p class="product">Linear > Branched (Surface Area \(\downarrow\))</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View: Must-Know Mechanisms -->
+            <section id="view-mechanisms" class="app-view" style="display:none">
+                <div class="roadmap-view">
+                    <div class="flow-card">
+                        <h3>1. Acidic Dehydration of Ethanol</h3>
+                        <p class="exam-pro-tip">Unit 7 | 3 Marks</p>
+                        <ul style="list-style:none; padding:10px; font-size:0.9rem;">
+                            <li>Step 1: Protonation of Alcohol.</li>
+                            <li>Step 2: Carbocation Formation (Slowest).</li>
+                            <li>Step 3: Loss of Proton to form Ethene.</li>
+                        </ul>
+                    </div>
+                    <div class="flow-card">
+                        <h3>2. Nucleophilic Addition (HCN)</h3>
+                        <p class="exam-pro-tip">Unit 8 | Carbonyls</p>
+                        <p style="font-size:0.9rem;">Nucleophile (\(CN^-\)) attacks carbonyl carbon \(\to\) Tetrahedral
+                            Intermediate \(\to\) Cyanohydrin.</p>
+                    </div>
+                    <div class="flow-card">
+                        <h3>3. SN1 Mechanism Steps</h3>
+                        <p style="font-size:0.9rem;">Formation of Carbocation (Step 1) followed by Attack of Nucleophile
+                            (Step 2). Gives <b>Racemic Mixture</b>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View: A-B-C Chain Solvers -->
+            <section id="view-chain" class="app-view" style="display:none">
+                <div class="roadmap-view">
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Chain 1: Aromatic Path</h3>
+                            <span class="badge hot">5 Marks</span>
+                        </div>
+                        <div class="step-item">
+                            <b>(A) Benzene</b> \(\xrightarrow{HNO_3/H_2SO_4}\) <b>(B) Nitrobenzene</b>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <b>(B) Nitrobenzene</b> \(\xrightarrow{Sn/HCl}\) <b>(C) Aniline</b>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <b>(C) Aniline</b> \(\xrightarrow{NaNO_2/HCl}\) <b>(D) Benzene Diazonium Chloride</b>
+                        </div>
+                    </div>
+
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Chain 2: Aliphatic Path</h3>
+                            <span class="badge cool">Step Up</span>
+                        </div>
+                        <div class="step-item">
+                            <b>(A) CH3Cl</b> \(\xrightarrow{KCN}\) <b>(B) CH3CN</b>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <b>(B) CH3CN</b> \(\xrightarrow{H_3O^+}\) <b>(C) CH3COOH</b>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <b>(C) CH3COOH</b> \(\xrightarrow{NH_3, \Delta}\) <b>(D) CH3CONH2</b>
+                        </div>
+                    </div>
+
+                    <div class="flow-card">
+                        <div class="card-header">
+                            <h3>Chain 3: Test Based</h3>
+                        </div>
+                        <div class="step-item">
+                            <b>(A) Ethyl Alcohol</b> \(\xrightarrow{PCC}\) <b>(B) Acetaldehyde</b>
+                        </div>
+                        <span class="arrow">↓</span>
+                        <div class="step-item">
+                            <b>(B) Acetaldehyde</b> \(\xrightarrow{I_2/NaOH}\) <b>(C) CHI3 (Iodoform)</b>
+                        </div>
+                        <p class="exam-pro-tip">💡 (C) is a Yellow Crystalline PPT.</p>
                     </div>
                 </div>
             </section>

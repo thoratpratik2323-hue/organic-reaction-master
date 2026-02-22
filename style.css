@@ -118,6 +118,18 @@ body {
     background: rgba(34, 211, 238, 0.05);
 }
 
+.nav-item.vibrant-gold {
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.4);
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.nav-item.vibrant-gold:hover {
+    background: rgba(251, 191, 36, 0.1);
+    box-shadow: 0 0 10px rgba(251, 191, 36, 0.2);
+}
+
 .nav-item i {
     font-size: 1.25rem;
 }
